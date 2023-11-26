@@ -13,7 +13,7 @@ typedef struct DateType {
     int year;
 } Date;
 
-int main() {
+int main(int argc, char*  argv[]) {
     ThreeDPoint *p = (ThreeDPoint *)malloc(sizeof(ThreeDPoint));
     Date *d;
     char a[] = { 7, 0, 0, 0, 7, 0, 0, 0, 30, 7, 0, 0 };
@@ -27,6 +27,6 @@ int main() {
 
     d = (struct ThreeDPoint *)a;
     printf("%d, %d, %d\n", d->day, d->month, d->year);
-    return 0;
+    return EXIT_SUCCESS;
 }
 
