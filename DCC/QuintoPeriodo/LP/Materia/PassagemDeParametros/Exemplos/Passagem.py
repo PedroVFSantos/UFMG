@@ -7,5 +7,5 @@ x = 3
 y = 1
 z = 0
 soma(x, y, z)
-print(x, y, z)
+print(x, y, z)clea
 

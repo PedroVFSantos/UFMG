@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	for(i = 0 ; i < 10 ; i++){
 		int i;
 		for(i = 0 ; i<=2 ; i++){
-			printf("%d", i);
+			printf("%d\n", i);
 		}
 	}
 
